@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Lora&family=Mohave&family=Montserrat&family=Montserrat+Alternates:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#root{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Component/bgImage1.jpg);
+}
+
+.container h1 {
+    font-size: 60px;
+    color: rgb(7, 7, 85);
+}
+
+.container h2 {
+    color: rgb(7, 7, 85);
+    font-weight: 400;
+}
+
+.myPhoto {
+    text-align: center;
+    margin: .5rem 0;
+    box-shadow: 1px 5px 30px rgb(10, 97, 63);
+}
+
+.identity {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(7, 7, 85);
+}
